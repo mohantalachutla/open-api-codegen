@@ -1,0 +1,15 @@
+{
+  "name": "open_api_codegen",
+  "version": "1.0.0",
+  "description": "A contract first api specification, documentation and code generator",
+  "main": "index.js",
+  "scripts": {
+    "generate": "scripts/generate.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohan Talachutla",
+  "license": "ISC",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.15.3"
+  }
+}

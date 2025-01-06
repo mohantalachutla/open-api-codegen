@@ -1,0 +1,5 @@
+{
+  "library": "spring-boot",
+  "useTags": true,
+  "dateLibrary": "java8"
+}
