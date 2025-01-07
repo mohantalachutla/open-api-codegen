@@ -8,7 +8,7 @@ output=$(getOutput $spec $language)
 openapi_json="$output/openapi.json"
 
 if [ ! -s $openapi_json ]; then # file exists and is empty
-  generate $language $config $spec
+  scripts/generate.sh $language $config $spec
 fi
 
 node server.js $openapi_json
