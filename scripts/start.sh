@@ -11,4 +11,8 @@ if [ ! -s $openapi_json ]; then # file exists and is empty
   scripts/generate.sh $language $config $spec
 fi
 
-node server.js $openapi_json
+if [ $NODE_ENV = "development" ]; then
+  nodemon -w "$openapi_json" server.js $openapi_json
+else
+  node server.js $openapi_json
+fi

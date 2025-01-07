@@ -6,6 +6,7 @@
   "scripts": {
     "generate": "scripts/generate.sh",
     "start": "scripts/start.sh",
+    "start:dev": "NODE_ENV=development scripts/start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mohan Talachutla",
@@ -15,5 +16,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
