@@ -1,6 +1,6 @@
 SPEC_DEFAULT="specs/api.yml"
 CONFIG_DEFAULT="config.json"
-LANGUAGE_DEFAULT="spring"
+LANGUAGE_DEFAULT="openapi"
 
 function validateSpec() {
   local spec=${1:-$SPEC_DEFAULT}
