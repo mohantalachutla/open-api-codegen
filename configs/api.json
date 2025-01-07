@@ -1,5 +1,9 @@
 {
   "library": "spring-boot",
   "useTags": true,
-  "dateLibrary": "java8"
+  "dateLibrary": "java8",
+  "useBeanValidation": true,
+  "useOptional": true,
+  "useLombok": true,
+  "interfaceOnly": false
 }
